@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+15&display=swap");
+
+h1 {
+  text-align: center;
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+
+  /*Código para centralizar imagem e botaõ*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+  color: white;
+  background-color: #322c8e;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /*Código para centralizar imagem e botaõ*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(186, 17, 70);
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
