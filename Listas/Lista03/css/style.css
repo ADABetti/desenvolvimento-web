@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Poetsen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-size: 17px;
+}
+
+h1 {
+  font-family: "Poetsen One", sans-serif;
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.921);
+  width: 250px;
+  height: 290px;
+  margin: 30px;
+  text-align: center;
+  border: 2px solid rgb(241, 206, 66);
+  border-radius: 10px;
+
+  transition: 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.01);
+}
+
+.product-card h4 {
+  font-family: "Briem Hand", cursive;
+}
+
+.product-card p {
+  margin: 5px 0 5px;
+}
+
+.btn-detail {
+  padding: 4px;
+  background-color: rgb(12, 2, 54);
+  border: 1px solid rgb(21, 17, 17);
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn-buy {
+  padding: 4px;
+  background-color: rgba(24, 162, 2, 0.991);
+  border: 1px solid rgb(21, 17, 17);
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(226, 33, 107);
+  cursor: pointer;
+}
+
+body {
+  background: hsla(335, 91%, 70%, 1);
+  background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f86ca7", endColorstr="#f4d444", GradientType=1 );
+}
