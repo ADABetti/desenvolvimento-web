@@ -1,0 +1,28 @@
+#menu {
+  text-align: center;
+}
+
+.item-menu {
+  color: blueviolet;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: 0.5s;
+}
+
+.item-menu:hover {
+  font-size: 20px;
+}
+
+#produtos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 45px;
+}
+
+.produto {
+  width: 200px;
+  height: 250px;
+  max-height: 250px;
+  text-align: center;
+  border: 3px solid grey;
+}
