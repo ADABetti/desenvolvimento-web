@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-principal {
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1 {
+  width: 50%;
+  height: 50vh;
+  background-color: rgb(255, 0, 217);
+}
+
+.container-2 {
+  width: 50%;
+  height: 50%;
+  background: rgb(26, 197, 18);
+}
+
+.container-3 {
+  width: 50%;
+  height: 50vh;
+  background-color: aqua;
+}
+
+.container-4 {
+  width: 50%;
+  height: 50vh;
+  background-color: rgb(255, 225, 0);
+}
