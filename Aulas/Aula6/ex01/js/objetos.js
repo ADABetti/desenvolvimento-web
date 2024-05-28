@@ -11,6 +11,7 @@ class Pessoa {
 var pessoa = new Pessoa ("Laura", 34);
 console.log (pessoa);
 
+// chave e valor:
 var produto = {
   nome: "Tesoura",
   preco: 23.50,
