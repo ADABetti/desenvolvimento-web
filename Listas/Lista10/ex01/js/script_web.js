@@ -26,3 +26,4 @@ let resultado = operacao(numero1,numero2);
 alert(`O resultado da operação é ${resultado}`);
 
 }
+
