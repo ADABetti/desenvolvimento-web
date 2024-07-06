@@ -1,0 +1,39 @@
+@import url(../css/reset.css);
+
+.img-earth{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  animation: animacao-img 10s linear infinite;
+  transition: 1s;
+}
+
+@keyframes animacao-img{
+
+  0%{
+    transform: rotate(360deg);
+    filter: hue-rotate(900deg);
+  }
+
+  /* 50%{
+    width: 250px;
+    height: 250px;
+  }
+    */
+
+  100% {
+
+  }
+
+
+}
+
+.anima-botao{
+  animation: animacao-botao 5s linear infinite;
+}
+
+@keyframes animacao-botao{
+  100%{
+    box-shadow: 10px 10px 5px 15px rgba(0,0,0,0.75);
+  }
+}
